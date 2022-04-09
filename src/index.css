@@ -70,7 +70,7 @@ a{
     transition: var(--transition);
 }
 a:hover{
-    color: var(--main-white);
+    color:rgb(255, 227, 227);
 }
 .btn{
     width: max-content;

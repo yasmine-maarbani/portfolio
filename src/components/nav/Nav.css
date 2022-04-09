@@ -1,0 +1,47 @@
+nav {
+    background-color: rgba(0, 0, 0, 0.189);
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    position: fixed;
+    left: 2rem;
+    bottom: 2rem;
+    height: fit-content;
+    z-index: 3;
+    padding: 1rem 1rem;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    border:2px solid var(--main-red) ;
+}
+.nav-btn{
+    transform: rotate(180deg);
+}
+.off{
+    display: none;
+}
+nav a{
+    background-color: transparent;
+    padding: 0.2rem;
+    border-radius: 3rem;
+    display: flex;
+    font-size: 1.2rem;
+}
+nav a.active{
+    box-shadow: unset;
+    color: var(--main-white);
+}
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media (max-width: 600px) {
+    nav{
+        flex-direction:row-reverse ;
+        justify-content: space-between;
+        overflow: hidden;
+        transition: var(--transition);
+        width: 80%;
+    }
+    nav.offN{
+        width: fit-content;
+    }
+}
