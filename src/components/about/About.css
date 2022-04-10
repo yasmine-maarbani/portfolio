@@ -1,10 +1,10 @@
 
 #about{
-    height: 100vh;
+    /* height: 100vh; */
 }
 .about__container{
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
      display: grid;
      grid-template-columns: 0.7fr 1.2fr;
      place-items: center;
@@ -107,6 +107,6 @@ width: 80%;
         margin-inline: auto;
     }
     #about{
-        height: 150vh;
+        /* height: 150vh; */
     }
 }
