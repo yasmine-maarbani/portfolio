@@ -82,6 +82,7 @@ width: 80%;
     }
     .about__me{
         width: 22%;
+        margin-bottom: 3rem;
     }
     .coding{
         font-size: 2rem;
