@@ -44,8 +44,16 @@ nav a.active{
     }
     nav.offN{
         width: fit-content;
+        height: fit-content;
     }
 }
 /*
 yasmine
 */
+
+/* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
+@media (max-width: 370px){
+nav{
+    padding: 0.5rem;
+}
+}
